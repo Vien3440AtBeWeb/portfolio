@@ -1,12 +1,12 @@
 #fond1{
        background-color:#00CA63; /********Couleur fond haute de page**********/
-       padding-bottom:12%; /********Hauteur cadre page de garde**********/
+       padding-bottom:19%; /********Hauteur cadre page de garde**********/
 }
 
 .titre{text-align:center;/********Position Titre**********/
       }
 
 #image{ /******Position titre par rapport a la page de garde******/
-       padding-top:20%;
+       padding-top:5%;
        padding-left:9%;
 }
