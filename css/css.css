@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "yeti";
+    src: url("BananaYeti-Extrabold Trial.ttf");
+}
+/*___________________Nav Bar_________________________*/
+.navbar-default .navbar-fnt {
+    color: #008080;
+}
+.navbar-default .navbar-backgrnd {
+    color: #CC3333;
+}
+
 /*______________________Header________________________*/
 
 #fond1{
@@ -6,37 +18,67 @@
 }
 
 .titre{
+  font-family: "yeti";
+  color: #006733;
+  font-size: 60px;
   text-align:center;/********Position Titre**********/
 }
 
 #contaireImg{ /******conteneurLogo****/
   text-align: center;
   margin: auto;
-  padding-top: 1%;
+  padding-top: 80px;
 }
 
 #image{
    /******Position titre par rapport a la page de garde******/
   text-align: center;
 }
-/*______________________Tout les Section______________________________*/
+/*___________________Pour Tout les Section______________________________*/
 
-.SectionTitre{/******Titre*******/
+.SectionTitre{
+  font-family: "yeti";
   font-size: 50px;
-  padding: 3%;
+  padding-top:3%;
+  padding-bottom:3%;
 }
 
-.SectionTexte{
-  padding: 2px;
-}
-/*______________________Section 1 Qui je suis__________________________*/
+
+
+ .SectionTexte{
+
+   font-size: 20px;
+ }
+/*______________________Section 1 Qui je suis / Loisir__________________________*/
 
 #Section1{ /*******Bloc Section1 Qui je suis *****/
-
-  height: 330px;
-  background-color: red;
   margin: 0;
   padding:0;
+  padding-left: 50px;
+  width:1000px;
+  background-color: #FFFFF0;
+}
+
+#loisir{ /******* Article loisir *****/
+
+  display: flex;
+  padding-top: 30px;
+}
+
+
+
+
+.listeLoisir{
+  font-size: 25px;
+  font-family: "yeti";
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 30px;
+  padding-bottom: 25px;
+  width: 110px;
+
 }
 /*___________________________Section 2 Formation________________________*/
 
